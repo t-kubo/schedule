@@ -24,25 +24,63 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int TextView1=0x7f090010;
-        public static final int Widget1=0x7f09000f;
-        public static final int action_settings=0x7f090012;
+        public static final int TextView1=0x7f090036;
+        public static final int Widget1=0x7f090035;
+        public static final int action_settings=0x7f090038;
         public static final int activityBtn=0x7f090001;
+        public static final int button1=0x7f090034;
+        public static final int button2=0x7f090025;
+        public static final int button3=0x7f09002c;
+        public static final int button4=0x7f090030;
+        public static final int checkBox1=0x7f090028;
         public static final int editText1=0x7f090000;
-        public static final int scheduleDay_SetBtn=0x7f09000c;
-        public static final int scheduleText1=0x7f090005;
-        public static final int scheduleTime_SetBtn=0x7f09000d;
-        public static final int schedule_AMPMText=0x7f090009;
-        public static final int schedule_BackBtn=0x7f090002;
-        public static final int schedule_DayText=0x7f090008;
-        public static final int schedule_DeleteBtn=0x7f090003;
-        public static final int schedule_EntryBtn=0x7f090004;
-        public static final int schedule_HourText=0x7f09000a;
-        public static final int schedule_MinuteText=0x7f09000b;
+        public static final int scheduleDay_SetBtn=0x7f09000f;
+        public static final int scheduleText1=0x7f090004;
+        public static final int scheduleTime_SetBtn=0x7f090010;
+        public static final int schedule_AdditionalConditionText=0x7f090017;
+        public static final int schedule_DayLabel=0x7f09000a;
+        public static final int schedule_DayText=0x7f090009;
+        public static final int schedule_DeleteBtn=0x7f090002;
+        public static final int schedule_DisplayConditionText=0x7f090018;
+        public static final int schedule_EntryBtn=0x7f090003;
+        public static final int schedule_HourLabel=0x7f09000c;
+        public static final int schedule_HourText=0x7f09000b;
+        public static final int schedule_Importance=0x7f09001d;
+        public static final int schedule_ImportanceLabel=0x7f09001c;
+        public static final int schedule_ImportanceSetBtn=0x7f09001e;
+        public static final int schedule_Joken=0x7f090015;
+        public static final int schedule_MinuteLabel=0x7f09000e;
+        public static final int schedule_MinuteText=0x7f09000d;
+        public static final int schedule_MonthLabel=0x7f090008;
         public static final int schedule_MonthText=0x7f090007;
-        public static final int schedule_YearText=0x7f090006;
-        public static final int setText1=0x7f09000e;
-        public static final int widgetBtn=0x7f090011;
+        public static final int schedule_ScheduleInputText=0x7f090014;
+        public static final int schedule_ScheduleText=0x7f090013;
+        public static final int schedule_ScheduleTitleInputText=0x7f090012;
+        public static final int schedule_ScheduleTitleText=0x7f090011;
+        public static final int schedule_TelopLabel=0x7f09001f;
+        public static final int schedule_TelopSetBtn=0x7f090021;
+        public static final int schedule_TelopText=0x7f090020;
+        public static final int schedule_WeatherRangeSetBtn=0x7f09001b;
+        public static final int schedule_WeatherSetBtn=0x7f09001a;
+        public static final int schedule_WeatherText_after=0x7f090019;
+        public static final int schedule_WeatherText_before=0x7f090016;
+        public static final int schedule_YearLabel=0x7f090006;
+        public static final int schedule_YearText=0x7f090005;
+        public static final int setText1=0x7f090022;
+        public static final int textView1=0x7f090023;
+        public static final int textView10=0x7f09002f;
+        public static final int textView11=0x7f090031;
+        public static final int textView12=0x7f090033;
+        public static final int textView13=0x7f090032;
+        public static final int textView2=0x7f090024;
+        public static final int textView3=0x7f090026;
+        public static final int textView4=0x7f090027;
+        public static final int textView5=0x7f090029;
+        public static final int textView6=0x7f09002a;
+        public static final int textView7=0x7f09002b;
+        public static final int textView8=0x7f09002d;
+        public static final int textView9=0x7f09002e;
+        public static final int widgetBtn=0x7f090037;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
@@ -54,31 +92,82 @@ public final class R {
         public static final int main=0x7f080000;
     }
     public static final class string {
-        public static final int action_settings=0x7f060001;
+        /**  使用する定数はここに定義してください 
+         */
+        public static final int actionItem_ListBtn=0x7f060000;
+        public static final int actionItem_SettingBtn=0x7f060001;
+        public static final int action_settings=0x7f060003;
         /**  MainActivity 
          */
-        public static final int activity_btn=0x7f060003;
+        public static final int activity_btn=0x7f060005;
         /**  設定 
          */
-        public static final int app_name=0x7f060000;
-        public static final int editText=0x7f060004;
-        public static final int scheduleDay_SetBtn=0x7f060011;
-        public static final int scheduleText=0x7f060006;
-        public static final int scheduleTime_SetBtn=0x7f060012;
-        public static final int schedule_AMPMText=0x7f06000e;
+        public static final int app_name=0x7f060002;
+        public static final int editText=0x7f060006;
+        public static final int scheduleDay_SetBtn=0x7f060013;
+        public static final int scheduleText=0x7f060008;
+        public static final int scheduleTime_SetBtn=0x7f060014;
+        public static final int schedule_BackBtn=0x7f06000a;
+        public static final int schedule_DayLabel=0x7f060010;
+        public static final int schedule_DeleteBtn=0x7f06000b;
+        public static final int schedule_EntryBtn=0x7f06000c;
+        public static final int schedule_HourLabel=0x7f060011;
+        public static final int schedule_Importance=0x7f06001a;
+        public static final int schedule_ImportanceSetBtn=0x7f06001b;
+        public static final int schedule_Joken=0x7f060015;
         /**  ScheduleActivity 
          */
-        public static final int schedule_BackBtn=0x7f060007;
-        public static final int schedule_DayText=0x7f06000d;
-        public static final int schedule_DeleteBtn=0x7f060008;
-        public static final int schedule_EntryBtn=0x7f060009;
-        public static final int schedule_HourText=0x7f06000f;
-        public static final int schedule_MinuteText=0x7f060010;
-        public static final int schedule_MonthText=0x7f06000c;
-        public static final int schedule_Text1=0x7f06000a;
-        public static final int schedule_YearText=0x7f06000b;
-        public static final int setText=0x7f060005;
-        public static final int widget_btn=0x7f060002;
+        public static final int schedule_ListBtn=0x7f060009;
+        public static final int schedule_MinuteLabel=0x7f060012;
+        public static final int schedule_MonthLabel=0x7f06000f;
+        public static final int schedule_ScheduleText=0x7f06001f;
+        public static final int schedule_ScheduleTitleText=0x7f06001e;
+        public static final int schedule_TelopSetBtn=0x7f06001d;
+        public static final int schedule_TelopText=0x7f06001c;
+        public static final int schedule_Text1=0x7f06000d;
+        public static final int schedule_WeatherRangeSetBtn=0x7f060019;
+        public static final int schedule_WeatherSetBtn=0x7f060018;
+        public static final int schedule_WeatherText_after=0x7f060017;
+        public static final int schedule_WeatherText_before=0x7f060016;
+        public static final int schedule_YearLabel=0x7f06000e;
+        public static final int setText=0x7f060007;
+        public static final int set_btn_backText=0x7f060039;
+        public static final int set_btn_designBackColorSet=0x7f06003d;
+        public static final int set_btn_designPriorityColor1=0x7f06003f;
+        public static final int set_btn_designPriorityColor2=0x7f060040;
+        public static final int set_btn_designPriorityColor3=0x7f060041;
+        public static final int set_btn_designTextColorSet=0x7f06003e;
+        public static final int set_btn_setText=0x7f06003a;
+        public static final int set_btn_tenkiKosinText=0x7f06003c;
+        public static final int set_btn_teropText=0x7f06003b;
+        public static final int set_label_PriorityColor1=0x7f060036;
+        public static final int set_label_PriorityColor2=0x7f060037;
+        public static final int set_label_PriorityColor3=0x7f060038;
+        public static final int set_label_designColor1=0x7f060034;
+        public static final int set_label_designColor2=0x7f060035;
+        public static final int set_label_terop=0x7f060032;
+        public static final int set_label_teropTime=0x7f060033;
+        public static final int set_txt_appdesingText=0x7f060023;
+        public static final int set_txt_design=0x7f06002c;
+        public static final int set_txt_designColor=0x7f06002b;
+        public static final int set_txt_designKomokuText1=0x7f060028;
+        public static final int set_txt_designKomokuText2=0x7f060029;
+        public static final int set_txt_designKomokuText3=0x7f06002a;
+        public static final int set_txt_designPriorityColor=0x7f060031;
+        public static final int set_txt_designPriorityLevel1=0x7f060030;
+        public static final int set_txt_designPriorityLevel2=0x7f06002f;
+        public static final int set_txt_designPriorityLevel3=0x7f06002e;
+        public static final int set_txt_designPriorityText=0x7f06002d;
+        public static final int set_txt_gpsCheckText=0x7f060025;
+        public static final int set_txt_gpsCheckTimeText=0x7f060026;
+        public static final int set_txt_gpsCheckTimeText2=0x7f060027;
+        public static final int set_txt_gpsText=0x7f060022;
+        /**  SetActivity 
+         */
+        public static final int set_txt_setText=0x7f060020;
+        public static final int set_txt_settutiText=0x7f060024;
+        public static final int set_txt_teropText=0x7f060021;
+        public static final int widget_btn=0x7f060004;
     }
     public static final class style {
         /** 
