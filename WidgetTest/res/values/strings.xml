@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!-- 使用する定数はここに定義してください -->
+    <string name="actionItem_ListBtn">一覧</string>
+    <string name="actionItem_SettingBtn">設定</string>
+    
     <!-- 設定 -->
     <string name="app_name">WidgetTest</string>
     <string name="action_settings">Settings</string>
@@ -13,18 +17,29 @@
     <string name="scheduleText">スケジュール登録画面を表示</string>
 
     <!-- ScheduleActivity -->
+    <string name="schedule_ListBtn">一覧</string>
     <string name="schedule_BackBtn">戻る</string>
     <string name="schedule_DeleteBtn">削除</string>
     <string name="schedule_EntryBtn">登録</string>
     <string name="schedule_Text1">予定日・予定時間（必須）</string>
-    <string name="schedule_YearText">2013年</string>
-    <string name="schedule_MonthText">10月</string>
-    <string name="schedule_DayText">31日</string>
-    <string name="schedule_AMPMText">PM</string>
-    <string name="schedule_HourText">21時</string>
-    <string name="schedule_MinuteText">30分</string>
+    <string name="schedule_YearLabel">年</string>
+    <string name="schedule_MonthLabel">月</string>
+    <string name="schedule_DayLabel">日</string>
+    <string name="schedule_HourLabel">時</string>
+    <string name="schedule_MinuteLabel">分</string>
     <string name="scheduleDay_SetBtn">予定日の設定</string>
     <string name="scheduleTime_SetBtn">予定時刻の設定</string>
+    <string name="schedule_Joken">※追加条件（任意選択）</string>
+    <string name="schedule_WeatherText_before">予定の天気が</string>
+    <string name="schedule_WeatherText_after">の場合</string>
+    <string name="schedule_WeatherSetBtn">天候条件の設定</string>
+    <string name="schedule_WeatherRangeSetBtn">範囲条件の設定</string>
+    <string name="schedule_Importance">重要度（高・中・低）</string>
+    <string name="schedule_ImportanceSetBtn">重要度設定</string>
+    <string name="schedule_TelopText">テロップ表示</string>
+    <string name="schedule_TelopSetBtn">テロップ設定</string>
+    <string name="schedule_ScheduleTitleText">予定タイトル（必須）</string>
+    <string name="schedule_ScheduleText">予定内容</string>
     
     <!-- SetActivity -->
     <string name="set_txt_setText">設定画面</string>

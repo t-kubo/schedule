@@ -13,6 +13,20 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     private final static String DB_NAME = "TelopSchedule_DB";
     //データベースVer
     private final static int DB_VER = 1;
+    private final static String SCHEDULE_CT_SQL = "create table ScheduleTable (" +
+    												" Id integer primary key autoincrement" +
+    												",ScheduleYear   integer not null" +
+    												",ScheduleMonth  integer not null" +
+    												",ScheduleDay    integer not null" +
+    												",ScheduleHour   integer not null" +
+    												",ScheduleMinute integer not null" +
+    												",AdditionalCondition integer not null" +
+    												",DisplayCondition integer not null" +
+    												",Importance integer not null" +
+    												",DisplayTelopFlag boolean not null" +
+    												",ScheduleTitle text not null" +
+    												",ScheduleText text" +
+    												")";
 
     public DatabaseHelper(Context context) {
         super(context, DB_NAME, null, DB_VER);
@@ -22,18 +36,8 @@ public class DatabaseHelper extends SQLiteOpenHelper {
      * テーブルの作成を行うメソッド
      */
     @Override
-    public void onCreate(SQLiteDatabase db) {
-        String sql = "";
-        sql += "create table ScheduleTable (";
-        sql += " No integer primary key autoincrement";
-        sql += ",ScheduleYear   integer not null";
-        sql += ",ScheduleMonth  integer not null";
-        sql += ",ScheduleDay    integer not null";
-        sql += ",ScheduleAMPM   integer not null";
-        sql += ",ScheduleHour   integer not null";
-        sql += ",ScheduleMinute integer not null";
-        sql += ")";
-        db.execSQL(sql);
+    public void onCreate(SQLiteDatabase db) {   	
+        db.execSQL(SCHEDULE_CT_SQL);
     }
 
     /*
