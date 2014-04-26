@@ -10,12 +10,6 @@
     android:orientation="horizontal" >
 
     	<Button
-	    android:id="@+id/schedule_BackBtn"
-	    android:text="@string/schedule_BackBtn"
-	    android:layout_width="wrap_content"
-	    android:layout_height="wrap_content" />
-
-    	<Button
 	    android:id="@+id/schedule_DeleteBtn"
 	    android:text="@string/schedule_DeleteBtn"
 	    android:layout_width="wrap_content"
@@ -42,37 +36,51 @@
 
     	<TextView
 	    android:id="@+id/schedule_YearText"
-	    android:text="@string/schedule_YearText"
 	    android:layout_width="wrap_content"
 	    android:layout_height="wrap_content" />
-
+		<TextView
+	    android:id="@+id/schedule_YearLabel"
+	    android:text="@string/schedule_YearLabel"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" />
+		
     	<TextView
 	    android:id="@+id/schedule_MonthText"
-	    android:text="@string/schedule_MonthText"
 	    android:layout_width="wrap_content"
 	    android:layout_height="wrap_content" />
-
+		<TextView
+	    android:id="@+id/schedule_MonthLabel"
+	    android:text="@string/schedule_MonthLabel"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" />
+		
     	<TextView
 	    android:id="@+id/schedule_DayText"
-	    android:text="@string/schedule_DayText"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" />    	
+		<TextView
+	    android:id="@+id/schedule_DayLabel"
+	    android:text="@string/schedule_DayLabel"
 	    android:layout_width="wrap_content"
 	    android:layout_height="wrap_content" />
-
-    	<TextView
-	    android:id="@+id/schedule_AMPMText"
-	    android:text="@string/schedule_AMPMText"
-	    android:layout_width="wrap_content"
-	    android:layout_height="wrap_content" />
-
+		
     	<TextView
 	    android:id="@+id/schedule_HourText"
-	    android:text="@string/schedule_HourText"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" />
+    	<TextView
+	    android:id="@+id/schedule_HourLabel"
+	    android:text="@string/schedule_HourLabel"
 	    android:layout_width="wrap_content"
 	    android:layout_height="wrap_content" />
 
     	<TextView
 	    android:id="@+id/schedule_MinuteText"
-	    android:text="@string/schedule_MinuteText"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" />
+    	<TextView
+	    android:id="@+id/schedule_MinuteLabel"
+	    android:text="@string/schedule_MinuteLabel"
 	    android:layout_width="wrap_content"
 	    android:layout_height="wrap_content" />
 
@@ -97,4 +105,123 @@
 
     </LinearLayout>
 
+        <TextView
+        android:id="@+id/schedule_ScheduleTitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/schedule_ScheduleTitleText" />
+
+    <EditText
+        android:id="@+id/schedule_ScheduleTitleInputText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:inputType="text"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/schedule_ScheduleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/schedule_ScheduleText" />
+
+    <EditText
+        android:id="@+id/schedule_ScheduleInputText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+    
+    <TextView
+        android:id="@+id/schedule_Joken"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/schedule_Joken"  />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/schedule_WeatherText_before"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/schedule_WeatherText_before" />
+		<TextView
+            android:id="@+id/schedule_AdditionalConditionText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+		<TextView
+            android:id="@+id/schedule_DisplayConditionText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/schedule_WeatherText_after"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/schedule_WeatherText_after" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/schedule_WeatherSetBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/schedule_WeatherSetBtn" />
+
+        <Button
+            android:id="@+id/schedule_WeatherRangeSetBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/schedule_WeatherRangeSetBtn" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/schedule_ImportanceLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/schedule_Importance" />
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+	    <TextView
+	        android:id="@+id/schedule_Importance"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+	    <Button
+	        android:id="@+id/schedule_ImportanceSetBtn"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/schedule_ImportanceSetBtn" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/schedule_TelopLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/schedule_TelopText" />
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+	    <TextView
+	        android:id="@+id/schedule_TelopText"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+	    <Button
+	        android:id="@+id/schedule_TelopSetBtn"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/schedule_TelopSetBtn" />
+		    
+	</LinearLayout>
 </LinearLayout>
