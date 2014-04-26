@@ -25,5 +25,45 @@
     <string name="schedule_MinuteText">30分</string>
     <string name="scheduleDay_SetBtn">予定日の設定</string>
     <string name="scheduleTime_SetBtn">予定時刻の設定</string>
+    
+    <!-- SetActivity -->
+    <string name="set_txt_setText">設定画面</string>
+    <string name="set_txt_teropText">テロップ表示画面</string>
+    <string name="set_txt_gpsText">GPS設定</string>
+    <string name="set_txt_appdesingText">アプリデザイン設定</string>
+    <string name="set_txt_settutiText">予定通知設定</string>
+    <string name="set_txt_gpsCheckText">GPS機能有効化</string>
+    <string name="set_txt_gpsCheckTimeText">GPS取得間隔</string>
+    <string name="set_txt_gpsCheckTimeText2">毎</string>
+    <string name="set_txt_designKomokuText1">背景</string>
+    <string name="set_txt_designKomokuText2">文字</string>
+    <string name="set_txt_designKomokuText3">予定</string>
+    <string name="set_txt_designColor">色</string>
+    <string name="set_txt_design">予定</string>
+    <string name="set_txt_designPriorityText">重要度</string>
+    <string name="set_txt_designPriorityLevel3">高</string>
+    <string name="set_txt_designPriorityLevel2">中</string>
+    <string name="set_txt_designPriorityLevel1">低</string>
+    <string name="set_txt_designPriorityColor">色</string>
+    
+    <string name="set_label_terop">ニュース速報風</string>
+    <string name="set_label_teropTime">1時間</string>
+    <string name="set_label_designColor1">白</string>
+    <string name="set_label_designColor2">黒</string>
+    <string name="set_label_PriorityColor1">赤</string>
+    <string name="set_label_PriorityColor2">黄</string>
+    <string name="set_label_PriorityColor3">青</string>
+    
+    
+    
+    <string name="set_btn_backText">戻る</string>
+    <string name="set_btn_setText">設定</string>
+    <string name="set_btn_teropText">テロップパターンの選択</string>
+    <string name="set_btn_tenkiKosinText">天気予報更新間隔の選択</string>
+    <string name="set_btn_designBackColorSet">背景色の選択</string>
+    <string name="set_btn_designTextColorSet">文字色の選択</string>
+    <string name="set_btn_designPriorityColor1">重要度（高）の色選択</string>
+    <string name="set_btn_designPriorityColor2">重要度（中）の色選択</string>
+    <string name="set_btn_designPriorityColor3">重要度（低）の色選択</string>
 
 </resources>
